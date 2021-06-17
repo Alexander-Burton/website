@@ -5,6 +5,8 @@ body {
     font-size: 16px;
     line-height: 1.64;
     font-family:  Calibri;
+    margin: 0px 0px 0px;
+    text-align: center;
 }
 
 hr {
@@ -16,7 +18,8 @@ hr {
 }
 
 h1, h2, h3{
-    color: #22A39F;
+    color: #00ADB5;
+    margin-top: 0px ;
 }
 
 hr:hover {
@@ -31,6 +34,19 @@ hr:hover {
     color: dodgerblue;
 }
 
+.title-text {
+    color: #00ADB5;
+}
+
+.title-div {
+    background-color: #393E46;
+    padding: 20px 20px 80px 20px;
+}
+
+.profile-div {
+    padding: 20px 70px 20px 70px;
+}
+
 .rounded-corners {
     border-radius: 15px 60px;
 }
@@ -40,7 +56,7 @@ hr:hover {
 
 /**********************ID SELECTORS******************/
 /*Can only have a single id per item and page*/
-#heading {
+#my-name {
 
     font-family: Verdana;
     font-size: 48px;
