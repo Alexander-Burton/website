@@ -1,0 +1,47 @@
+/**********************TAG SELECTORS******************/
+body {
+    background-color: #FFFFFF;
+    color: #434242;
+    font-size: 16px;
+    line-height: 1.64;
+    font-family:  Calibri;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #22A39F;
+    border-width: 8px;
+    width: 10%;
+}
+
+h1, h2, h3{
+    color: #22A39F;
+}
+
+hr:hover {
+    background-color: gold;
+}
+
+
+
+/**********************CLASS SELECTORS******************/
+/*Can have multiple classes per item and page*/
+.employment {
+    color: dodgerblue;
+}
+
+.rounded-corners {
+    border-radius: 15px 60px;
+}
+.rounded-corners:hover {
+    border-radius: 60px 15px;
+}
+
+/**********************ID SELECTORS******************/
+/*Can only have a single id per item and page*/
+#heading {
+
+    font-family: Verdana;
+    font-size: 48px;
+}
