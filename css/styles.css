@@ -4,9 +4,8 @@ body {
     color: #434242;
     font-size: 16px;
     line-height: 1.64;
-    font-family:  Calibri;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px 0px 0px;
-    text-align: center;
 }
 
 hr {
@@ -14,12 +13,13 @@ hr {
     border-top-style: dotted;
     border-color: #22A39F;
     border-width: 8px;
-    width: 10%;
+    width: 15%;
 }
 
 h1, h2, h3{
     color: #00ADB5;
     margin-top: 0px ;
+    text-align: center;
 }
 
 hr:hover {
@@ -31,6 +31,9 @@ ul {
     list-style-position: inside;
 }
 
+p {
+    margin-bottom: 0px;
+}
 
 /**********************CLASS SELECTORS******************/
 /*Can have multiple classes per item and page*/
@@ -44,7 +47,8 @@ ul {
 
 .title-div {
     background-color: #393E46;
-    padding: 20px 20px 80px 20px;
+    padding: 20px 20px 30px 20px;
+    text-align: center;
 }
 
 .profile-div {
@@ -60,18 +64,28 @@ ul {
 }
 
 .behind-me {
-    margin: auto;
     background-color: #00ADB5;
     width:150px;
     height:150px;
     border-radius: 100%;
     display: flex;
     padding: 10px;
+    margin: 0 auto 0 auto;
+}
+
+.container {
+    width: 50%;
+    margin: 0px auto 0px auto
+}
+.tab { 
+    margin-left: 40px; 
+    margin-top: 0px;
 }
 
 /**********************ID SELECTORS******************/
 /*Can only have a single id per item and page*/
 #my-name {
-    font-family: Verdana;
-    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 400%;
+    margin-bottom: 0px;
 }
